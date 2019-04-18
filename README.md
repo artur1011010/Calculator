@@ -1,6 +1,6 @@
-# calculator
+# Calculator
 
-> Simple calc- first VUE project
+Simple Calc- first VUE project
 
 ## Build Setup
 

@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <h1>welcome to first vue app</h1>
+    <Header/>
     <Calc/>
   </div>
 </template>
 
 <script>
 import Calc from './components/Calc'
+import Header from './components/Header'
 
 export default {
   name: 'App',
   components: {
-    Calc
+    Calc,
+    Header
   }
 }
 </script>
@@ -22,7 +24,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
   margin-top: 60px;
 }
 </style>
